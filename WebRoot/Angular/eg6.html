@@ -1,0 +1,18 @@
+<!-- Data binding with many text inputs. -->
+<html ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>Angular.js Example</title>
+		<script
+			src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+	</head>
+	<body>
+		Name1:
+		<input ng-model="name1" type="text" />
+		<br>
+		Name2:
+		<input ng-model="name2" type="text" value={{name}} />
+		<br>
+		Hello {{name1}} {{name2}}
+	</body>
+</html>

@@ -1,0 +1,197 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="home.css" />
+		<script
+			src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script> 
+		
+		
+$(document).ready(function(){
+  $("#l1").mouseenter(function(){
+  	var par = $(this).attr("id");
+   	var i=1;
+   	alert('hi');
+   		while(true)
+	  	{
+	  		$(document.getElementById(par+''+i)).show();
+	  		i++;
+	  	}
+  });
+});
+
+		
+
+$(document).ready(function(){
+  $("#l11").hover(function(){
+   	$("#l111").show();
+   	$("#l112").show();
+   	$("#l113").show();
+   	$("#l114").show();
+   	$("#l115").show();
+  });
+});
+
+
+		</script>
+
+	</head>
+	<body>
+		<div class="main">
+			<!-- logo -->
+			<div id="logo">
+				<span id="image"><img src="images/logo1.jpg" alt="Big Boat"
+						style="padding-top: 34px;" /> </span><span id="name">Contraction
+					of India</span>
+			</div>
+			<!--end logo -->
+			<!-- menu -->
+			<div id="menu">
+				<ul class="menu">
+					<li>
+						<a id="l1" href="#" class="parent"><span>Home</span> </a>
+						<div id="l11" style="display: none">
+							<ul>
+								<li>
+									<a href="#" class="parent"><span>Sub Item 1</span> </a>
+									<div id="l111" style="display: none">
+										<ul>
+											<li>
+												<a href="#" class="parent"><span>Sub Item 1.1</span> </a>
+												<div id="l1111" style="display: none">
+													<ul>
+														<li>
+															<a href="#"><span>Sub Item 1.1.1</span> </a>
+														</li>
+														<li>
+															<a href="#"><span>Sub Item 1.1.2</span> </a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<div id="l112" style="display: none">
+													<a href="#"><span>Sub Item 1.2</span> </a>
+												</div>
+											</li>
+											<li>
+												<div id="l113" style="display: none">
+													<a href="#"><span>Sub Item 1.3</span> </a>
+												</div>
+											</li>
+											<li>
+												<div id="l114" style="display: none">
+													<a href="#"><span>Sub Item 1.4</span> </a>
+												</div>
+											</li>
+											<li>
+												<div id="l115" style="display: none">
+													<a href="#"><span>Sub Item 1.5</span> </a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div id="l12" style="display: none">
+										<a href="#"><span>Sub Item 2</span> </a>
+									</div>
+								</li>
+								<li>
+									<div id="l13" style="display: none">
+										<a href="#"><span>Sub Item 3</span> </a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="parent"><span>Product Info</span> </a>
+						<div>
+							<ul>
+								<li>
+									<a href="#" class="parent"><span>Sub Item 1</span> </a>
+									<div>
+										<ul>
+											<li>
+												<a href="#"><span>Sub Item 1.1</span> </a>
+											</li>
+											<li>
+												<a href="#"><span>Sub Item 1.2</span> </a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="parent"><span>Sub Item 2</span> </a>
+									<div>
+										<ul>
+											<li>
+												<a href="#"><span>Sub Item 2.1</span> </a>
+											</li>
+											<li>
+												<a href="#"><span>Sub Item 2.2</span> </a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#"><span>Sub Item 3</span> </a>
+								</li>
+								<li>
+									<a href="#"><span>Sub Item 4</span> </a>
+								</li>
+								<li>
+									<a href="#"><span>Sub Item 5</span> </a>
+								</li>
+								<li>
+									<a href="#"><span>Sub Item 6</span> </a>
+								</li>
+								<li>
+									<a href="#"><span>Sub Item 7</span> </a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#"><span>Help</span> </a>
+					</li>
+					<li class="last">
+						<a href="#"><span>Contacts</span> </a>
+					</li>
+				</ul>
+			</div>
+			<!-- end menu -->
+			<!-- middle content -->
+			<div class="middle">
+				<div>
+
+					<span id="img1"><img src="images/h1.jpg" alt="" /> </span>
+
+					<span id="img3"><img src="images/h3.jpg" alt="" /> </span>
+				</div>
+
+				<div class="main_solution">
+					<span class="hsolution">Building solution for</span>
+					<span class="lsolution">Building solution for</span>
+
+				</div>
+				<div>
+					<span class="happy">Make life Happy</span>
+					<span class="success">Plan to get Success</span>
+				</div>
+
+			</div>
+
+
+			<!-- end middle content -->
+			<!-- footer content -->
+			<div class="footer">
+
+
+			</div>
+
+			<!-- end footer content -->
+		</div>
+
+	</body>
+</html>
